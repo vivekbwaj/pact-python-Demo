@@ -2,7 +2,7 @@
 __pycache__
 .pytest_cache
 pact-mock-service.log
-providertest/log
-providertest/reports
-providertest/tmp
+/providertest/log
+/providertest/reports
+/providertest/tmp
 /my_consumer-my_provider.json

@@ -1,0 +1,21 @@
+# Logfile created on 2018-07-27 12:03:52 +1000 by logger.rb/47272
+I, [2018-07-27T12:03:52.298805 #3252]  INFO -- : Running example 'Verifying a pact between My Consumer and My Provider Given The jsonplaceholder data exists A request for post for user 1 with GET /posts returns a response which has status code 200'
+I, [2018-07-27T12:03:52.298805 #3252]  INFO -- : Sending GET request to path: "/posts" with headers: {}, see debug logs for body
+D, [2018-07-27T12:03:52.299308 #3252] DEBUG -- : body :
+I, [2018-07-27T12:03:53.356447 #3252]  INFO -- : Received response with status: 200, headers: {"X-Powered-By"=>"Express", "Vary"=>"Origin, Accept-Encoding", "Access-Control-Allow-Credentials"=>"true", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-Content-Type-Options"=>"nosniff", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"293", "Etag"=>"W/\"125-RCOPMTbkob1y2oouOwqe8dVwhr4\"", "Date"=>"Fri, 27 Jul 2018 02:03:53 GMT", "Connection"=>"keep-alive"}, see debug logs for body
+D, [2018-07-27T12:03:53.359802 #3252] DEBUG -- : body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "squia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+I, [2018-07-27T12:04:58.765792 #19440]  INFO -- : Running example 'Verifying a pact between My Consumer and My Provider Given The jsonplaceholder data exists A request for post for user 1 with GET /posts returns a response which has status code 200'
+I, [2018-07-27T12:04:58.772293 #19440]  INFO -- : Sending GET request to path: "/posts" with headers: {}, see debug logs for body
+D, [2018-07-27T12:04:58.772792 #19440] DEBUG -- : body :
+I, [2018-07-27T12:04:59.839107 #19440]  INFO -- : Received response with status: 200, headers: {"X-Powered-By"=>"Express", "Vary"=>"Origin, Accept-Encoding", "Access-Control-Allow-Credentials"=>"true", "Cache-Control"=>"no-cache", "Pragma"=>"no-cache", "Expires"=>"-1", "X-Content-Type-Options"=>"nosniff", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"292", "Etag"=>"W/\"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU\"", "Date"=>"Fri, 27 Jul 2018 02:04:59 GMT", "Connection"=>"keep-alive"}, see debug logs for body
+D, [2018-07-27T12:04:59.839107 #19440] DEBUG -- : body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}

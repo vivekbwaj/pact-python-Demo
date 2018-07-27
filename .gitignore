@@ -1,0 +1,4 @@
+/provider/node_modules
+__pycache__
+.pytest_cache
+pact-mock-service.log

@@ -5,4 +5,4 @@ pact-mock-service.log
 providertest/log
 providertest/reports
 providertest/tmp
-my_consumer-my_provider.json
+/my_consumer-my_provider.json
